@@ -103,6 +103,7 @@ CREATE TABLE boletines (
     resumen             VARCHAR(500) NULL,
     foto_portada        VARCHAR(255) NULL,
     archivo_pdf         VARCHAR(255) NOT NULL,
+    es_destacado        TINYINT(1) NOT NULL DEFAULT 0,
     fecha_publicacion   DATE NOT NULL,
     usuario_id          INT UNSIGNED NOT NULL,
     CONSTRAINT uq_boletines_numero UNIQUE (numero_boletin),
