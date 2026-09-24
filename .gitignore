@@ -1,0 +1,15 @@
+# Export de la base de datos (contiene usuarios y contraseñas hasheadas)
+database/export_*.sql
+
+# Archivos temporales
+*.log
+*.zip
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
